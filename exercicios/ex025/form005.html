@@ -7,5 +7,24 @@
 </head>
 <body>
     <h1>mais exemplos de formularios</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <fieldset>
+            <legend>sexo</legend>
+            <input type="radio" name="sexo" id="imas"><label for="imas">masculino</label>
+            <input type="radio" name="sexo" id="ifem"> <label for="ifem">feminino</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>esportes favoritos</legend>
+            <input type="checkbox" name="ebas" id="ibasquete"> <label for="ibasquete">basquete</label> <br>
+            <input type="checkbox" name="eten" id="itennis"> <label for="itennis">tennis</label> <br>
+            <input type="checkbox" name="efut" id="ifutbol"> <label for="ifutbol">futebol</label> <br>
+            <input type="checkbox" name="enat" id="inatação"> <label for="inatação">natação</label> <br>
+        </fieldset>
+        <p>
+            <input type="submit" value="enviar">
+            <input type="reset" value="limpar">
+        </p>
+    </form>
 </body>
 </html>
